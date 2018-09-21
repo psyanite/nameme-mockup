@@ -1,0 +1,30 @@
+.bottom-button {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 50px;
+  text-align: center;
+  color: #FF52E5;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 5%;
+  padding-top: 10px;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.next-button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 5%;
+  padding-top: 15px;
+  padding-left: 15px;
+  background-image: linear-gradient(to bottom right, #F6D242, #FF52E5);
+}

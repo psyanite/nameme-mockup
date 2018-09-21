@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+html {
+}
+
+body {
+  font: 300 13px/1.6 'Open', Helvetica, Arial;
+  color: #444;
+  transition: all .4s .3s ease-in;
+}
+
+body,html{
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+main {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 422px;
+  height: 800px;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rim {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom right, #F6D242, #FF52E5);
+}
