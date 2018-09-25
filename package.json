@@ -1,14 +1,7 @@
 {
-  "name": "fastshell",
-  "title": "Fiercely quick and opinionated front-ends",
+  "name": "crystal",
   "author": "Hossein Karami",
-  "url": "https://HosseinKarami.github.io/fastshell",
-  "version": "1.0.5",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
-  },
+  "version": "1.0.0",
   "devDependencies": {
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0",

@@ -1,10 +1,10 @@
 /*!
- * fastshell
- * Fiercely quick and opinionated front-ends
- * https://HosseinKarami.github.io/fastshell
+ * crystal
+ * 
+ * 
  * @author Hossein Karami
- * @version 1.0.5
- * Copyright 2018. MIT licensed.
+ * @version 1.0.0
+ * Copyright 2018.  licensed.
  */
 (function ($, window, document, undefined) {
 

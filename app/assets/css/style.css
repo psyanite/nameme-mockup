@@ -13,7 +13,7 @@
 
 body {
   font: 300 13px/1.6 'Open', Helvetica, Arial;
-  color: #444;
+  color: #373a3c;
   transition: all .4s .3s ease-in; }
 
 body, html {
@@ -525,6 +525,17 @@ textarea {
     top: 0;
     width: 100%; }
 
+.question.options-12 .prompt {
+  margin-top: 65px; }
+
+.question.options-12 .options {
+  margin-left: 45px; }
+  .question.options-12 .options .option {
+    margin-right: 15px; }
+
+.question.options-8 .prompt {
+  margin-top: 70px; }
+
 .question .prompt {
   font-size: 20px;
   text-align: center;
@@ -543,12 +554,28 @@ textarea {
   border-radius: 50%;
   text-align: center; }
 
+.question .option.selected {
+  background-image: linear-gradient(to bottom right, #ffe88a, #ff84ed); }
+
 .question .emoji {
   display: block;
   vertical-align: middle;
   width: 80px;
   height: 80px;
   margin: 10px auto; }
+
+.progression {
+  margin: 25px 0 0 23px; }
+  .progression span {
+    display: inline-block;
+    width: 42px;
+    height: 15px;
+    margin-right: 2px;
+    border-radius: 7px; }
+  .progression .colored {
+    background-image: linear-gradient(to bottom right, #F6D242, #FF52E5); }
+  .progression .blank {
+    background-color: #eeeeee; }
 
 @media print {
   * {

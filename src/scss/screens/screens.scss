@@ -32,6 +32,25 @@
 }
 
 .question {
+
+  &.options-12 {
+    .prompt {
+      margin-top: 65px;
+    }
+    .options {
+      margin-left: 45px;
+      .option {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  &.options-8 {
+    .prompt {
+      margin-top: 70px;
+    }
+  }
+
   .prompt {
     font-size: 20px;
     text-align: center;
@@ -53,6 +72,10 @@
     text-align: center;
   }
 
+  .option.selected {
+    background-image: linear-gradient(to bottom right, #ffe88a, #ff84ed);
+  }
+
   .emoji {
     display: block;
     vertical-align: middle;
@@ -62,3 +85,22 @@
   }
 }
 
+.progression {
+
+  margin: 25px 0 0 23px;
+
+  span {
+    display: inline-block;
+    width: 42px;
+    height: 15px;
+    margin-right: 2px;
+    border-radius: 7px;
+  }
+  .colored {
+    background-image: linear-gradient(to bottom right, #F6D242, #FF52E5);
+  }
+  .blank {
+    //background-image: linear-gradient(to bottom right, #F6D242, #FF52E5);
+    background-color: #eeeeee;
+  }
+}
