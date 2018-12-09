@@ -19,7 +19,7 @@
 1. Every button, on tap, should change in opacity to 0.9 as a clear indication that their button was tapped
 2.  All text (except for the loading screen) is i18n configurable, a language file, and should be able to support all languages, should be used in the project, and American-English language phrases are implemented instead of hardcoding the text.
 3. On app load, it detects the user's phone language, and then sets that as the language of the app
-4. Look and feel is be consistent across modern mobile devices including iPhone 6, Samsung Galaxy S8+, and iPhone X
+4. Look and feel is be consistent across all modern mobile devices of all screen dimensions, including iPhone 6, Samsung Galaxy S8+, and iPhone X
 5. App is deployed in iTunes store and Google Play store
 
 ## 4. Splash
